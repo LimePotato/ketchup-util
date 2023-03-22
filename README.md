@@ -1,29 +1,24 @@
-# Quilt Template Mod
+# Ketchup Util
 
-The official Quilt template mod. You can use it as a template for your own mods!
+A util to aid me in modding.
 
-## Usage
+### Requirements:
+- Minecraft 1.19.2
+- [Quilt Mod Loader](https://quiltmc.org)
+- [Quilted Fabric API](https://modrinth.com/mod/qsl)
+- [Ketchup Util](https://github.com/LimePotato/ketchup-util/releases)
+- [Latest Release](https://github.com/LimePotato/Sine-Termino/releases)
+###
 
-In order to use this mod as a template:
-
-1. Create a new repository from this template with `Use this template`
-2. Clone the recently-created repo on your PC
-3. Make the necessary changes in order to make it yours:
-    - Update `gradle.properties` in order to use your Maven group and mod ID
-        - If you don't know which Maven group to use, and you are planning to host the mod's source code on GitHub, use `io.github.<Your_Username_Here>`
-    - Update `quilt.mod.json` in order to reflect your mod's metadata
-        - If you are planning to include (jar-in-jar) a mod, don't forget to declare its dependency on it!
-        - The icon provided here is a placeholder one. If you aren't able to replace it yet, you can delete it and remove the "icon" property
-    - Create a LICENSE file for this mod! If you don't know which license to use, check out [here](https://choosealicense.com/).
-        - If you use `LICENSE.md`, don't forget to update the buildscript in order to use that file name!
-        - In `quilt.mod.json`, don't forget to put the license's [SPDX identifier](https://spdx.org/licenses/) under the `"license"` property in `"metadata"`.
-        - The GPLv3 and AGPLv3 are not valid mod licenses, so you can use almost any license except for those.
-    - Update the Java sub-directory structure so it reflects your Maven group
-    - If the dependencies on `gradle/libs.versions.toml` isn't up-to-date, feel free to update them! The [linked utility](https://lambdaurora.dev/tools/import_quilt.html) should help you in this easy and quick process.
-4. The mod is now ready to be worked on!
+These are just a few ideas, and you may come up with other names that you like better. The important thing is to choose a name that reflects the theme and content of your mod, and that fits the style of other Fabric and Quilt mods."
 
 ## License
 
-This template on the QuiltMC GitHub is licensed under the [Creative Common Zero v1.0 license](./LICENSE-TEMPLATE.md).
+I dedicate any and all copyright interest in this software to the
+public domain. I make this dedication for the benefit of the public at
+large and to the detriment of my heirs and successors. I intend this
+dedication to be an overt act of relinquishment in perpetuity of all
+present and future rights to this software under copyright law.
 
-Mods created with this template are not automatically licensed under the CC0, and are not required to give any kind of credit back to QuiltMC for this template.
+![pd-icon](https://user-images.githubusercontent.com/9313366/208296032-a39e4144-ab3d-4abc-af51-074d2ac678fe.png)
+See [Unlicense](./LICENSE.md).

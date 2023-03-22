@@ -34,14 +34,23 @@
 				"id": "minecraft",
 				"versions": ">=1.19.4"
 			}
+		],
+		"suggests": [
+			{
+				"id": "mod_menu",
+				"versions": ">=6.1.0-rc.4"
+			}
 		]
 	},
 	"custom": {
+		"modmenu:api": true,
 		"modmenu": {
 			"links": {
 				"modmenu.discord": "https://limepot.xyz/redir/discord"
 			},
-			"badges": [ "library" ],
+			"badges": [
+				"library"
+			],
 			"update_checker": false
 		}
 	},

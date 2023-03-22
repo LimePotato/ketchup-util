@@ -42,17 +42,24 @@
 			}
 		]
 	},
-	"custom": {
-		"modmenu:api": true,
-		"modmenu": {
-			"links": {
-				"modmenu.discord": "https://limepot.xyz/redir/discord"
-			},
+	"mixin": "ketchup.mixins.json",
+	"modmenu:api": true,
+	"modmenu": {
+		"update_checker": true,
+		"parent": {
+			"id": "ketchup",
+			"name": "Ketchup API",
+			"description": "A small util",
+			"icon": "assets/ketchup/icon.png",
 			"badges": [
 				"library"
-			],
-			"update_checker": false
+			]
+		},
+		"badges": [
+			"library"
+		],
+		"links": {
+			"modmenu.discord": "https://limepot.xyz/redir/discord"
 		}
-	},
-	"mixin": "ketchup.mixins.json"
+	}
 }
